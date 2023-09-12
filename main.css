@@ -5829,14 +5829,18 @@ input[type="checkbox"] {
   #home-form-wrapper .form-wrap #return-error,
   #home-form-wrapper .form-wrap #num-travelers-error,
   #home-form-wrapper .form-wrap #your-residence-state-error,
-  #home-form-wrapper .form-wrap #initial-trip-payment-error
-  #home-form-wrapper .form-wrap #traveler-age-1-error,
+  #home-form-wrapper
+    .form-wrap
+    #initial-trip-payment-error
+    #home-form-wrapper
+    .form-wrap
+    #traveler-age-1-error,
   #home-form-wrapper .form-wrap #traveler-age-2-error,
   #home-form-wrapper .form-wrap #traveler-age-3-error,
   #home-form-wrapper .form-wrap #traveler-age-4-error,
   #home-form-wrapper .form-wrap #traveler-age-5-error,
   #home-form-wrapper .form-wrap #traveler-age-6-error,
-  #home-form-wrapper .form-wrap  #traveler-age-1-error{
+  #home-form-wrapper .form-wrap #traveler-age-1-error {
     color: #fca5a5 !important;
     font-size: 12px !important;
   }
