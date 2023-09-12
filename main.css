@@ -5865,7 +5865,7 @@ input[disabled] {
 
   #home-form-wrapper input,
   #home-form-wrapper select {
-    background-color:transparent !important;
+    /* background-color:transparent !important; */
     border: none !important;
     font-size: 14px !important;
     padding: 6px 20px !important;
