@@ -4,114 +4,133 @@
 
 @media only screen and (min-width: 480px) {
   #home-form-wrapper {
-      background-color:#407c9b!important;
-      color: #fff!important;
-      border-radius: 7px!important;
-      padding: 20px 40px!important
+    background-color: #407c9b !important;
+    color: #fff !important;
+    border-radius: 7px !important;
+    padding: 20px 40px !important;
   }
 
   #home-form-wrapper .home-form-intro-text h2 {
-      color: #fff!important;
-      margin-bottom: 7px;
-      font-weight: 600!important;
-      font-size: 26px!important
+    color: #fff !important;
+    margin-bottom: 7px;
+    font-weight: 600 !important;
+    font-size: 26px !important;
   }
 
   #home-form-wrapper .home-form-intro-text p {
-      font-weight: 400!important;
-      font-size: 16px!important
+    font-weight: 400 !important;
+    font-size: 16px !important;
   }
 
   #home-form-wrapper .form-wrap label {
-      color: #fff!important;
-      font-size: 14px!important;
-      font-weight: 450!important
+    color: #fff !important;
+    font-size: 14px !important;
+    font-weight: 450 !important;
   }
 
   #home-form-wrapper .form-wrap label a {
-      color: #d5d0c9!important;
-      font-size: 11px!important;
-      font-weight: 450
+    color: #d5d0c9 !important;
+    font-size: 11px !important;
+    font-weight: 450;
   }
 
   #home-form-wrapper .form-wrap label a:hover {
-      color: #fff!important
+    color: #fff !important;
   }
 
-  #home-form-wrapper .form-wrap #trip-cost-error,#home-form-wrapper .form-wrap #primary-destination-error,#home-form-wrapper .form-wrap #departure-error,#home-form-wrapper .form-wrap #return-error,#home-form-wrapper .form-wrap #num-travelers-error,#home-form-wrapper .form-wrap #your-residence-state-error,#home-form-wrapper .form-wrap #initial-trip-payment-error {
-      color: #fca5a5!important;
-      font-size: 12px!important
+  #home-form-wrapper .form-wrap #trip-cost-error,
+  #home-form-wrapper .form-wrap #primary-destination-error,
+  #home-form-wrapper .form-wrap #departure-error,
+  #home-form-wrapper .form-wrap #return-error,
+  #home-form-wrapper .form-wrap #num-travelers-error,
+  #home-form-wrapper .form-wrap #your-residence-state-error,
+  #home-form-wrapper .form-wrap #initial-trip-payment-error
+  #home-form-wrapper .form-wrap #traveler-age-1-error,
+  #home-form-wrapper .form-wrap #traveler-age-2-error,
+  #home-form-wrapper .form-wrap #traveler-age-3-error,
+  #home-form-wrapper .form-wrap #traveler-age-4-error,
+  #home-form-wrapper .form-wrap #traveler-age-5-error,
+  #home-form-wrapper .form-wrap #traveler-age-6-error,
+  #home-form-wrapper .form-wrap  #traveler-age-1-error{
+    color: #fca5a5 !important;
+    font-size: 12px !important;
   }
 
   #home-form-wrapper .form-wrap {
-      width: 100%!important
+    width: 100% !important;
   }
 
   #home-form-wrapper .home-form-intro-text {
-      width: 100%;
-      margin: 0 auto!important
+    width: 100%;
+    margin: 0 auto !important;
   }
 
   #home-form-wrapper .get-quotes-btn:hover {
-      transition: none!important
+    transition: none !important;
   }
 
-  #home-form-wrapper input,#home-form-wrapper select {
-      /* background-color:#fff!important; */
-      border: none!important;
-      font-size: 14px!important;
-      padding: 6px 20px!important;
-      font-weight: 400!important
+  #home-form-wrapper input,
+  #home-form-wrapper select {
+    /* background-color:#fff!important; */
+    border: none !important;
+    font-size: 14px !important;
+    padding: 6px 20px !important;
+    font-weight: 400 !important;
   }
 
-  #home-form-wrapper input:active,#home-form-wrapper select:active,#home-form-wrapper input:focus,#home-form-wrapper select:focus {
-      outline: none!important;
-      border: none!important;
-      box-shadow: none!important
+  #home-form-wrapper input:active,
+  #home-form-wrapper select:active,
+  #home-form-wrapper input:focus,
+  #home-form-wrapper select:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
   }
 
-  #home-form-wrapper input::placeholder,#home-form-wrapper select::placeholder {
-      color: gray!important;
-      font-size: 14px!important;
-      font-weight: 400!important
+  #home-form-wrapper input::placeholder,
+  #home-form-wrapper select::placeholder {
+    color: gray !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
   }
 
   #home-form-wrapper .fa-question-circle {
-      z-index: 2;
-      width: 18px;
-      height: 18px;
-      background-image: url(data:image/svg+xml;charset=UTF-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0id2hpdGUiIGNsYXNzPSJiaSBiaS1xdWVzdGlvbi1jaXJjbGUiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZD0iTTggMTVBNyA3IDAgMSAxIDggMWE3IDcgMCAwIDEgMCAxNHptMCAxQTggOCAwIDEgMCA4IDBhOCA4IDAgMCAwIDAgMTZ6Ii8+PHBhdGggZD0iTTUuMjU1IDUuNzg2YS4yMzcuMjM3IDAgMCAwIC4yNDEuMjQ3aC44MjVjLjEzOCAwIC4yNDgtLjExMy4yNjYtLjI1LjA5LS42NTYuNTQtMS4xMzQgMS4zNDItMS4xMzQuNjg2IDAgMS4zMTQuMzQzIDEuMzE0IDEuMTY4IDAgLjYzNS0uMzc0LjkyNy0uOTY1IDEuMzcxLS42NzMuNDg5LTEuMjA2IDEuMDYtMS4xNjggMS45ODdsLjAwMy4yMTdhLjI1LjI1IDAgMCAwIC4yNS4yNDZoLjgxMWEuMjUuMjUgMCAwIDAgLjI1LS4yNXYtLjEwNWMwLS43MTguMjczLS45MjcgMS4wMS0xLjQ4Ni42MDktLjQ2MyAxLjI0NC0uOTc3IDEuMjQ0LTIuMDU2IDAtMS41MTEtMS4yNzYtMi4yNDEtMi42NzMtMi4yNDEtMS4yNjcgMC0yLjY1NS41OS0yLjc1IDIuMjg2em0xLjU1NyA1Ljc2M2MwIC41MzMuNDI1LjkyNyAxLjAxLjkyNy42MDkgMCAxLjAyOC0uMzk0IDEuMDI4LS45MjcgMC0uNTUyLS40Mi0uOTQtMS4wMjktLjk0LS41ODQgMC0xLjAwOS4zODgtMS4wMDkuOTR6Ii8+PC9zdmc+)
+    z-index: 2;
+    width: 18px;
+    height: 18px;
+    background-image: url(data:image/svg+xml;charset=UTF-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0id2hpdGUiIGNsYXNzPSJiaSBiaS1xdWVzdGlvbi1jaXJjbGUiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZD0iTTggMTVBNyA3IDAgMSAxIDggMWE3IDcgMCAwIDEgMCAxNHptMCAxQTggOCAwIDEgMCA4IDBhOCA4IDAgMCAwIDAgMTZ6Ii8+PHBhdGggZD0iTTUuMjU1IDUuNzg2YS4yMzcuMjM3IDAgMCAwIC4yNDEuMjQ3aC44MjVjLjEzOCAwIC4yNDgtLjExMy4yNjYtLjI1LjA5LS42NTYuNTQtMS4xMzQgMS4zNDItMS4xMzQuNjg2IDAgMS4zMTQuMzQzIDEuMzE0IDEuMTY4IDAgLjYzNS0uMzc0LjkyNy0uOTY1IDEuMzcxLS42NzMuNDg5LTEuMjA2IDEuMDYtMS4xNjggMS45ODdsLjAwMy4yMTdhLjI1LjI1IDAgMCAwIC4yNS4yNDZoLjgxMWEuMjUuMjUgMCAwIDAgLjI1LS4yNXYtLjEwNWMwLS43MTguMjczLS45MjcgMS4wMS0xLjQ4Ni42MDktLjQ2MyAxLjI0NC0uOTc3IDEuMjQ0LTIuMDU2IDAtMS41MTEtMS4yNzYtMi4yNDEtMi42NzMtMi4yNDEtMS4yNjcgMC0yLjY1NS41OS0yLjc1IDIuMjg2em0xLjU1NyA1Ljc2M2MwIC41MzMuNDI1LjkyNyAxLjAxLjkyNy42MDkgMCAxLjAyOC0uMzk0IDEuMDI4LS45MjcgMC0uNTUyLS40Mi0uOTQtMS4wMjktLjk0LS41ODQgMC0xLjAwOS4zODgtMS4wMDkuOTR6Ii8+PC9zdmc+);
   }
 
   #home-form-wrapper input.ti-btn {
-      padding: 18px 25px!important;
-      font-size: 22px!important;
-      font-weight: 500!important;
-      margin-top: 10px!important;
-      background: #fb9818ed!important;
-      border: none!important;
-      color: #fff!important
+    padding: 18px 25px !important;
+    font-size: 22px !important;
+    font-weight: 500 !important;
+    margin-top: 10px !important;
+    background: #fb9818ed !important;
+    border: none !important;
+    color: #fff !important;
   }
 
   #home-form-wrapper input.ti-btn:hover {
-      transition: none!important;
-      background: #fa9d23!important
+    transition: none !important;
+    background: #fa9d23 !important;
   }
 
   .slide-text-container {
-      background-color: rgba(83,91,96,.72)!important;
-      border-radius: 7px 0 0 7px!important
+    background-color: rgba(83, 91, 96, 0.72) !important;
+    border-radius: 7px 0 0 7px !important;
   }
 
   .slide-text-container .slide-text h1 {
-      text-shadow: none!important;
-      color: #fff!important;
-      font-weight: 600
+    text-shadow: none !important;
+    color: #fff !important;
+    font-weight: 600;
   }
 
-  .slide-text-container .slide-text p,.slide-text-container .slide-text ul {
-      font-weight: 400!important;
-      text-shadow: none!important;
-      color: #fff!important
+  .slide-text-container .slide-text p,
+  .slide-text-container .slide-text ul {
+    font-weight: 400 !important;
+    text-shadow: none !important;
+    color: #fff !important;
   }
 }
