@@ -4804,8 +4804,6 @@ input[type="checkbox"] {
 
 /* ===========================================================================home top section style on tab and mobile */
 
-
-
 @media only screen and (max-width:1024px){
   #home-slideshow{
     min-height: 250px !important;
