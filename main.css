@@ -5786,8 +5786,8 @@ input[type="checkbox"] {
 #wide-form > #subpage-form-wrapper {
   border: 1px solid #eceff457;
 }
-input[disabled]{
-  cursor:not-allowed !important;
+input[disabled] {
+  cursor: not-allowed !important;
 }
 /* ===============================================================================Form Styles */
 @media only screen and (min-width: 480px) {
