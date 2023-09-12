@@ -5786,11 +5786,7 @@ input[type="checkbox"] {
 #wide-form > #subpage-form-wrapper {
   border: 1px solid #eceff457;
 }
-input[disabled] {
-  cursor: not-allowed !important;
-  background-color: #ddd !important;
- 
-}
+
 /* ===============================================================================Form Styles */
 @media only screen and (min-width: 480px) {
   #home-form-wrapper {
@@ -5982,4 +5978,10 @@ input[disabled] {
     display: flex !important;
     justify-content: center !important;
   }
+}
+
+input[disabled] {
+  cursor: not-allowed !important;
+  background-color: #ddd !important;
+ 
 }
