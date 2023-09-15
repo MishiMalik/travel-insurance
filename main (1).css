@@ -5789,6 +5789,7 @@ input[type="checkbox"] {
 
 /* ===============================================================================Form Styles */
 
+/* ============================================================================updated this code  for home form fields outline  */
 @media only screen and (min-width: 480px) {
   #home-form-wrapper {
     background-color: #407c9b !important;
@@ -5988,6 +5989,9 @@ input[disabled] {
   background-color: #ddd !important;
 }
 
+
+
+/* ============================================================================style for form fields outline  */
  input:active,
  input:focus,
  select:active,
