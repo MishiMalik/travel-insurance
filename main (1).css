@@ -5835,11 +5835,15 @@ input[type="checkbox"] {
   #home-form-wrapper .form-wrap #traveler-age-5-error,
   #home-form-wrapper .form-wrap #traveler-age-6-error,
   #home-form-wrapper .form-wrap #traveler-age-1-error,
+  #home-form-wrapper .form-wrap #traveler-age-7-error,
+  #home-form-wrapper .form-wrap #traveler-age-8-error,
+  #home-form-wrapper .form-wrap #traveler-age-9-error,
+  #home-form-wrapper .form-wrap #traveler-age-10-error,
   #home-form-wrapper .form-wrap #initial-trip-payment-error {
-    /* color: #f3bd1d !important; */
     color: #fca5a5 !important;
     font-size: 12px !important;
   }
+
   #home-form-wrapper .form-wrap {
     width: 100% !important;
   }
@@ -5855,7 +5859,7 @@ input[type="checkbox"] {
   #home-form-wrapper input,
   #home-form-wrapper select {
     /* background-color: white !important; */
-    border: none !important;
+    border: none;
     font-size: 14px !important;
     padding: 6px 20px !important;
     font-weight: 400 !important;
@@ -5865,11 +5869,18 @@ input[type="checkbox"] {
   #home-form-wrapper select:active,
   #home-form-wrapper input:focus,
   #home-form-wrapper select:focus {
-    outline: none !important;
+    /* outline: none !important;
     border: none !important;
-    box-shadow: none !important;
+    box-shadow: none !important; */
+    /* box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(251, 152, 24, 0.6) 0px 0px 8px;
+       border:1px solid #fb9818ed !important;
+  outline: 0px; */
+  outline: none; /* Remove the default focus outline */
+    border: 2px solid #007bff; /* Blue border color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /
   }
 
+  
   #home-form-wrapper input::placeholder,
   #home-form-wrapper select::placeholder {
     color: gray !important;
@@ -5976,3 +5987,12 @@ input[disabled] {
   cursor: not-allowed !important;
   background-color: #ddd !important;
 }
+
+ input:active,
+ input:focus,
+ select:active,
+ select:focus{
+     box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(0, 114, 190, 0.6) 0px 0px 8px !important;
+     border-color: rgb(0, 114, 190) !important;
+     outline: 0px;
+ }
