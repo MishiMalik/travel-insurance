@@ -5870,15 +5870,16 @@ input[type="checkbox"] {
   #home-form-wrapper select:active,
   #home-form-wrapper input:focus,
   #home-form-wrapper select:focus {
-    /* outline: none !important;
-    border: none !important;
-    box-shadow: none !important; */
-    /* box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(251, 152, 24, 0.6) 0px 0px 8px;
+
+    /* -------orange shadow ---------------------*/
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(251, 152, 24, 0.6) 0px 0px 8px;
        border:1px solid #fb9818ed !important;
-  outline: 0px; */
-  outline: none; /* Remove the default focus outline */
-    border: 2px solid #007bff; /* Blue border color */
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /
+  outline: 0px;
+
+  /* --------blue shadow */
+  /* outline: none; 
+    border: 2px solid #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); / */
   }
 
   
