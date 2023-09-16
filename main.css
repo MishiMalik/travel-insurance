@@ -5870,19 +5870,18 @@ input[type="checkbox"] {
   #home-form-wrapper select:active,
   #home-form-wrapper input:focus,
   #home-form-wrapper select:focus {
-
     /* -------orange shadow ---------------------*/
-    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(251, 152, 24, 0.6) 0px 0px 8px;
-       border:1px solid #fb9818ed !important;
-  outline: 0px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset,
+      rgba(251, 152, 24, 0.6) 0px 0px 8px;
+    border: 1px solid #fb9818ed !important;
+    outline: 0px;
 
-  /* --------blue shadow */
-  /* outline: none; 
+    /* --------blue shadow */
+    /* outline: none; 
     border: 2px solid #007bff;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); / */
   }
 
-  
   #home-form-wrapper input::placeholder,
   #home-form-wrapper select::placeholder {
     color: gray !important;
@@ -5990,14 +5989,13 @@ input[disabled] {
   background-color: #ddd !important;
 }
 
-
-
 /* ============================================================================style for form fields outline  */
- input:active,
- input:focus,
- select:active,
- select:focus{
-     box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(0, 114, 190, 0.6) 0px 0px 8px !important;
-     border-color: rgb(0, 114, 190) !important;
-     outline: 0px;
- }
+input:active,
+input:focus,
+select:active,
+select:focus {
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset,
+    rgba(0, 114, 190, 0.6) 0px 0px 8px !important;
+  border-color: rgb(0, 114, 190) !important;
+  outline: 0px;
+}
