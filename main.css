@@ -6013,7 +6013,7 @@ select:focus {
 
 
 
-/* =====================================updates */
+/* =====================================home tips updates */
 @media only screen and (min-width: 640px){
   #home-tips{
   padding: 80px 0 0 0 !important;
@@ -6086,7 +6086,7 @@ text-decoration: underline;
 }
 
 
-/* =====================================updates */
+/* ===================================== header updates */
 
  #home-slideshow-mobile .slide-text p{
   font-size: 16px !important;
@@ -6141,17 +6141,7 @@ text-decoration: underline;
 }
 
 
-/* ================================================css for foundation file */
-@media only screen and (min-width: 640px) and (max-width:786px){
-  #home-why .medium-2{
-  width: 33% !important;
-  margin-top: 15px !important;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}  
-}
+
 
 /* ========================== logos before Our Trusted Partners Include*/
 .mobile-accredited{
@@ -6164,4 +6154,17 @@ text-decoration: underline;
   #subpage-compare{
     padding-top: 30px !important;
   }
+}
+
+
+/* ================================================css for foundation file */
+@media only screen and (min-width: 640px) and (max-width:786px){
+  #home-why .medium-2{
+  width: 33% !important;
+  margin-top: 15px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}  
 }
