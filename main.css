@@ -6018,33 +6018,46 @@ select:focus {
   #home-tips{
   padding: 80px 0 0 0 !important;
 }
-  #home-tips .row  h4{
-    margin-top:5px;
-  }
- #home-tips .row  h4 a{
-  text-align:justify;
-   font-size:15px;
-   
+
+}
+#home-tips{
+  min-height: 500px;
+}
+#home-tips .row  h4{
+  margin-top:5px;
+}
+#home-tips .row  h4 a{
+text-align:justify;
+ font-size:15px;
+ 
 }
 #home-tips .row div  p{
-  margin-top:15px;
+margin-top:15px;
 }
 #home-tips .row div  p a{
-  color: #FA9D23;
-  font-size:14px;
+color: #FA9D23;
+font-size:14px;
 }
 #home-tips .row div p a:hover{
-  text-decoration: underline;
+text-decoration: underline;
 }
 
 #home-tips .row  .learn-more{
-  color: #0061a6;
-  position:absolute;
-  bottom: -40px;
+color: #0061a6;
+position:absolute;
+bottom: -40px;
 }
 #home-tips .row  .learn-more:hover{
-  text-decoration: underline;
+text-decoration: underline;
 }
+@media only screen and (max-width:640px){
+  #home-tips .row  .learn-more{
+   position: relative !important;
+   bottom: 0 !important;
+    }
+    #home-tips{
+      padding:0 0  80px 0 !important;
+    }
 }
 /* ========================================================banner spacings */
 
@@ -6073,18 +6086,12 @@ select:focus {
 }
 
 
-
 /* =====================================updates */
 
  #home-slideshow-mobile .slide-text p{
   font-size: 16px !important;
 }
 
-
-#home-slideshow-mobile{
-  padding-top: 30px !important;
-  padding-bottom: 30px !important;
-}
 
 #home-slideshow-mobile > img{
   min-height: 300px;
@@ -6096,21 +6103,41 @@ select:focus {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* ========================================================sidebar without form */
 @media only screen and (min-width:1024px){
   .page-id-169 #bd .row #side-content{
     margin-top: 0px !important;
   }
+}
+
+
+
+
+/* ====================================footer */
+#ft .row{
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+#ft .row .large-3{
+  width: 25% !important;
+}
+
+
+@media only screen and (max-width:640px){
+  #ft .row .large-3{
+    width: 100% !important;
+    margin-top: 30px !important;
+  }
+  #ft .row .large-3 img{
+   margin-top: -30px !important;
+  }
+}
+
+/* =======================about us text */
+.page-id-132 .entry-content p,
+.page-id-57 .entry-content{
+  text-align: justify !important;
 }
 
 
@@ -6126,3 +6153,15 @@ select:focus {
 }  
 }
 
+/* ========================== logos before Our Trusted Partners Include*/
+.mobile-accredited{
+  padding: 30px !important;
+}
+
+/* ======================================== Our Trusted Partners Include*/
+@media only screen and (min-width: 640px)
+{
+  #subpage-compare{
+    padding-top: 30px !important;
+  }
+}
