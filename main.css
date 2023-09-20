@@ -1,5 +1,5 @@
 /*
-Company:	
+Company:
 File:		main.css - This contains all the main styles for the website.
 Docs:		File is based on html5boilerplate and YUI3 Fonts CSS.
 			Learn more:
@@ -55,7 +55,7 @@ $large: 64.063em;*/
 html {
   background-color: #fff;
   min-width: 320px;
-  font-family: Roboto, "proxima-nova", "Helvetica Neue", Helvetica, Arial,
+  font-family: Roboto, 'proxima-nova', 'Helvetica Neue', Helvetica, Arial,
     sans-serif;
 }
 
@@ -63,14 +63,14 @@ body {
   color: #545454;
   font-size: 17px;
   line-height: 24px;
-  font-family: Roboto, "proxima-nova", "Helvetica Neue", Helvetica, Arial,
+  font-family: Roboto, 'proxima-nova', 'Helvetica Neue', Helvetica, Arial,
     sans-serif;
 }
 
 p,
 li {
   font-size: 1rem;
-  font-family: Roboto, "proxima-nova", "Helvetica Neue", Helvetica, Arial,
+  font-family: Roboto, 'proxima-nova', 'Helvetica Neue', Helvetica, Arial,
     sans-serif;
 }
 
@@ -206,7 +206,7 @@ li {
 }
 
 #hd .top-bar .toggle-topbar.menu-icon a span::after {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   height: 0;
@@ -227,7 +227,7 @@ li {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("../images/logo-travelinsurance.svg");
+  background-image: url('../images/logo-travelinsurance.svg');
 }
 
 #hd .top-bar .title-area .name a {
@@ -517,7 +517,7 @@ li {
   border-top-right-radius: 4px !important;
 }
 
-#home-form input[type="submit"] {
+#home-form input[type='submit'] {
   width: 83%;
   border-radius: 4px;
   -moz-border-radius: 4px;
@@ -697,10 +697,10 @@ li {
   -webkit-border-radius: 15px;
   border-radius: 15px;
 }
-/* update */
-/* #home-tips {
-  padding: 80px 0 ;
-} */
+
+#home-tips {
+  padding: 80px 0;
+}
 
 #home-tips h2 {
   padding: 0 0 23px 0;
@@ -923,7 +923,7 @@ li {
   text-align: center;
 }
 
-#side-form form input[type="submit"] {
+#side-form form input[type='submit'] {
   width: 100%;
 }
 
@@ -1126,16 +1126,16 @@ ul.post-details li {
 }
 
 ul.post-details li.post-details-by {
-  background: url("../images/icon-post-author.png") 0 5px no-repeat !important;
+  background: url('../images/icon-post-author.png') 0 5px no-repeat !important;
   display: none;
 }
 
 ul.post-details li.post-details-tag {
-  background: url("../images/icon-post-tag.png") 0 5px no-repeat !important;
+  background: url('../images/icon-post-tag.png') 0 5px no-repeat !important;
 }
 
 ul.post-details li.post-details-date {
-  background: url("../images/icon-post-date.png") 0 5px no-repeat !important;
+  background: url('../images/icon-post-date.png') 0 5px no-repeat !important;
 }
 
 .wide-page #wide-content {
@@ -1185,7 +1185,7 @@ ul.post-details li.post-details-date {
 }
 @media only screen and (min-width: 640px) {
   #wide-content {
-    padding-top: 40px;
+    padding-top: 25px;
     text-align: center;
   }
 }
@@ -1546,7 +1546,7 @@ body .modal-cancel-button {
 .fa-calendar {
   width: 20px;
   height: 24px;
-  background: url("../images/icon-calendar.png") no-repeat 50% 0;
+  background: url('../images/icon-calendar.png') no-repeat 50% 0;
 }
 
 #subpage-form form .icon-wrap input {
@@ -1577,7 +1577,7 @@ body .modal-cancel-button {
   z-index: 2;
   width: 18px;
   height: 18px;
-  background: url("../images/fa-question-circle-o.svg?color=%23f2f2f2")
+  background: url('../images/fa-question-circle-o.svg?color=%23f2f2f2')
     no-repeat 50% 0;
   cursor: pointer;
 }
@@ -1627,7 +1627,7 @@ body .modal-cancel-button {
   border-top-right-radius: 4px !important;
 }
 
-#subpage-form input[type="submit"] {
+#subpage-form input[type='submit'] {
   width: 83%;
   border-radius: 4px;
   -moz-border-radius: 4px;
@@ -2308,7 +2308,7 @@ body .modal-cancel-button {
   padding-top: 15px;
 }
 .getquotes .quote-sort {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .getquotes #side-content {
   margin-top: 0px;
@@ -2865,7 +2865,7 @@ h2,
 h3,
 h4 {
   color: #323945;
-  font-family: Roboto, "proxima-nova", "Helvetica Neue", Helvetica, Arial,
+  font-family: Roboto, 'proxima-nova', 'Helvetica Neue', Helvetica, Arial,
     sans-serif;
 }
 
@@ -3000,20 +3000,20 @@ div#nav ul li.sfhover {
 
 /* @end */
 /* @group Forms */
-input[type="text"],
-input[type="password"],
-input[type="date"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="month"],
-input[type="week"],
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="tel"],
-input[type="time"],
-input[type="url"],
-input[type="color"],
+input[type='text'],
+input[type='password'],
+input[type='date'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='month'],
+input[type='week'],
+input[type='email'],
+input[type='number'],
+input[type='search'],
+input[type='tel'],
+input[type='time'],
+input[type='url'],
+input[type='color'],
 textarea,
 select {
   border-radius: 4px;
@@ -3029,7 +3029,7 @@ form select {
 }
 
 .button {
-  font-family: Roboto, "proxima-nova", "Helvetica Neue", Helvetica, Arial,
+  font-family: Roboto, 'proxima-nova', 'Helvetica Neue', Helvetica, Arial,
     sans-serif;
   background: #2379a1;
   color: #fff !important;
@@ -3080,7 +3080,7 @@ form select {
 a {
   font-weight: 500;
   font-size: 0.875rem;
-  font-family: Roboto, "proxima-nova", "Helvetica Neue", Helvetica, Arial,
+  font-family: Roboto, 'proxima-nova', 'Helvetica Neue', Helvetica, Arial,
     sans-serif !important;
 }
 
@@ -3435,19 +3435,19 @@ a:active {
   }
 
   #slide1 {
-    background-image: url("../images/slider/slide5.jpg");
+    background-image: url('../images/slider/slide5.jpg');
   }
 
   #slide2 {
-    background-image: url("../images/slider/slide5.jpg");
+    background-image: url('../images/slider/slide5.jpg');
   }
 
   #slide3 {
-    background-image: url("../images/slider/slide3.jpg");
+    background-image: url('../images/slider/slide3.jpg');
   }
 
   #slide4 {
-    background-image: url("../images/slider/slide4.jpg");
+    background-image: url('../images/slider/slide4.jpg');
   }
 
   #home-slideshow .slide h1 {
@@ -3527,7 +3527,7 @@ a:active {
     padding-left: 0;
   }
 
-  #home-form input[type="submit"] {
+  #home-form input[type='submit'] {
     width: 90%;
   }
 
@@ -3580,7 +3580,7 @@ a:active {
     padding-left: 0;
   }
 
-  #subpage-form input[type="submit"] {
+  #subpage-form input[type='submit'] {
     width: 90%;
   }
 
@@ -3591,7 +3591,7 @@ a:active {
   }
 
   #banner {
-    padding: 40px 0;
+    padding: 50px 0;
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3648,8 +3648,8 @@ a:active {
   }
 
   .edit-quotes #banner {
-    padding-top: 40px;
-    padding-bottom: 75px;
+    padding-top: 50px;
+    padding-bottom: 80px;
   }
   .edit-quotes #wide-form {
     margin-top: -75px;
@@ -3929,7 +3929,7 @@ a:active {
 }
 
 /* .plans-label label.label-evaluation-limit {
-	height: 90px !important;	
+	height: 90px !important;
 } */
 
 .plans {
@@ -3981,7 +3981,7 @@ a:active {
   width: 120px;
   margin-left: -60px;
   display: block;
-  background-image: url("../images/icon-yes.gif");
+  background-image: url('../images/icon-yes.gif');
   background-repeat: no-repeat;
   background-position: left 4px;
   padding-left: 25px;
@@ -4004,7 +4004,7 @@ a:active {
 .plans .plan .plan-buy .remove {
   width: 125px;
   margin: 0 auto;
-  background-image: url("../images/icon-no.gif");
+  background-image: url('../images/icon-no.gif');
   background-repeat: no-repeat;
   background-position: left 1px;
   padding-left: 20px;
@@ -4675,7 +4675,7 @@ a:active {
 
 .clearfix:before,
 .clearfix:after {
-  content: "";
+  content: '';
   display: table;
 }
 
@@ -4710,17 +4710,17 @@ a:active {
   }
 
   a[href]:after {
-    content: " (" attr(href) ")";
+    content: ' (' attr(href) ')';
   }
 
   abbr[title]:after {
-    content: " (" attr(title) ")";
+    content: ' (' attr(title) ')';
   }
 
   .ir a:after,
-  a[href^="javascript:"]:after,
-  a[href^="#"]:after {
-    content: "";
+  a[href^='javascript:']:after,
+  a[href^='#']:after {
+    content: '';
   }
 
   /* Don't show links for images, or javascript/internal links */
@@ -4777,11 +4777,11 @@ a:active {
 }
 
 .ui-datepicker-next {
-  background: url("../images/icon-arrow-next.png") no-repeat 50% 50%;
+  background: url('../images/icon-arrow-next.png') no-repeat 50% 50%;
 }
 
 .ui-datepicker-prev {
-  background: url("../images/icon-arrow-prev.png") no-repeat 50% 50%;
+  background: url('../images/icon-arrow-prev.png') no-repeat 50% 50%;
 }
 
 .ui-datepicker .ui-datepicker-next-hover {
@@ -4807,7 +4807,7 @@ a:active {
 }
 
 input.datepicker {
-  background: url("../images/icon-calendar.png") no-repeat 95% 50% #fff;
+  background: url('../images/icon-calendar.png') no-repeat 95% 50% #fff;
 }
 
 .fa-calendar {
@@ -4836,7 +4836,7 @@ input.datepicker {
   position: fixed;
   top: 432px;
   right: 10px;
-  background: transparent url("../images/icon-compare-next.png") no-repeat 50%
+  background: transparent url('../images/icon-compare-next.png') no-repeat 50%
     50%;
   opacity: 0.7;
   -webkit-transition: all 0.2s;
@@ -4850,7 +4850,7 @@ input.datepicker {
   position: fixed;
   top: 432px;
   left: 10px;
-  background: transparent url("../images/icon-compare-prev.png") no-repeat 50%
+  background: transparent url('../images/icon-compare-prev.png') no-repeat 50%
     50%;
   opacity: 0.7;
   -webkit-transition: all 0.2s;
@@ -5157,7 +5157,7 @@ textarea.error {
 }
 
 .r-tabs-anchor:before {
-  content: "\25b8";
+  content: '\25b8';
   padding-right: 8px;
 }
 
@@ -5188,7 +5188,7 @@ textarea.error {
 }
 
 .r-tabs-state-active .r-tabs-anchor:before {
-  content: "\25be";
+  content: '\25be';
   padding-right: 8px;
 }
 
@@ -5502,7 +5502,7 @@ a.ui-state-default {
 .top-bar-section li::after {
   background-color: #2379a1;
   bottom: -3px;
-  content: "";
+  content: '';
   display: block;
   height: 3px;
   left: 50%;
@@ -5523,7 +5523,7 @@ a.ui-state-default {
   text-align: center;
   font-size: 1.05rem;
   font-weight: 500;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   border-radius: 30px !important;
   padding: 10px;
   background-position: 50% 50%;
@@ -5561,7 +5561,7 @@ a.ui-state-default {
   background-size: 100% 100%;
 }
 
-#subpage-form input[type="submit"] {
+#subpage-form input[type='submit'] {
   margin-top: 5px;
 }
 
@@ -5771,7 +5771,7 @@ a.ui-state-default {
   box-shadow: none;
 }
 /**/
-input[type="checkbox"] {
+input[type='checkbox'] {
   top: 1px !important;
   position: relative;
 }
@@ -5829,6 +5829,7 @@ input[type="checkbox"] {
   #home-form-wrapper .form-wrap #num-travelers-error,
   #home-form-wrapper .form-wrap #your-residence-state-error,
   #home-form-wrapper .form-wrap #initial-trip-payment-error,
+  #home-form-wrapper .form-wrap #traveler-age-0-error,
   #home-form-wrapper .form-wrap #traveler-age-1-error,
   #home-form-wrapper .form-wrap #traveler-age-2-error,
   #home-form-wrapper .form-wrap #traveler-age-3-error,
@@ -5873,11 +5874,11 @@ input[type="checkbox"] {
     /* -------orange shadow ---------------------*/
     box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset,
       rgba(251, 152, 24, 0.6) 0px 0px 8px;
-    border: 1px solid #fb9818ed !important;
+    border: 2px solid #8d984f !important;
     outline: 0px;
 
     /* --------blue shadow */
-    /* outline: none; 
+    /* outline: none;
     border: 2px solid #007bff;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); / */
   }
@@ -6002,17 +6003,6 @@ select:focus {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* =====================================home tips updates */
 @media only screen and (min-width: 640px){
   #home-tips{
@@ -6023,41 +6013,55 @@ select:focus {
 #home-tips{
   min-height: 400px;
 }
+#home-tips .row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
 #home-tips .row  h4{
-  margin-top:5px;
+  margin-top:5px !important;
 }
 #home-tips .row  h4 a{
-text-align:justify;
- font-size:15px;
+text-align:justify !important;
+ font-size:15px !important;
  
 }
 #home-tips .row div  p{
-margin-top:15px;
+margin-top:15px !important;
 }
 #home-tips .row div  p a{
-color: #FA9D23;
-font-size:14px;
+color: #FA9D23 !important;
+font-size:14px !important;
 }
 #home-tips .row div p a:hover{
-text-decoration: underline;
+text-decoration: underline !important;
 }
 
 #home-tips .row  .learn-more{
-color: #0061a6;
-position:absolute;
+color: #0061a6 !important;
+position:absolute !important;
 bottom: -40px;
 }
 #home-tips .row  .learn-more:hover{
-text-decoration: underline;
+text-decoration: underline !important;
+}
+@media only screen and (max-width:1100px)
+{
+  #home-tips{
+    padding:80px 0  80px 0 !important;
+  }
 }
 @media only screen and (max-width:640px){
-  #home-tips .row  .learn-more{
-   position: relative !important;
-   bottom: 0 !important;
-    }
-    #home-tips{
-      padding:0 0  80px 0 !important;
-    }
+ 
+   
+
+    #home-tips .row  .learn-more{
+      position: relative !important;
+      bottom: 0 !important;
+       }
+       #home-tips{
+        padding:0 0  80px 0 !important;
+      }
 }
 /* ========================================================banner spacings */
 
@@ -6113,7 +6117,7 @@ text-decoration: underline;
 
 
 
-/* ====================================footer */
+/* ===============================================================footer */
 #ft .row{
   display: flex !important;
   flex-wrap: wrap !important;
@@ -6132,32 +6136,32 @@ text-decoration: underline;
   #ft .row .large-3 img{
    margin-top: -30px !important;
   }
+  #ft .row .large-3 ul li a img{
+    margin-top: 0px !important;
+   }
 }
 
-/* =======================about us text */
+/* =============================================================about us text */
 .page-id-132 .entry-content p,
 .page-id-57 .entry-content{
   text-align: justify !important;
 }
 
 
-
-
-/* ========================== logos before Our Trusted Partners Include*/
+/* ================================================================= logos before Our Trusted Partners Include*/
 .mobile-accredited{
   padding: 30px !important;
 }
 
-/* ======================================== Our Trusted Partners Include*/
-@media only screen and (min-width: 640px)
-{
+/* =========================================================================== Our Trusted Partners Include*/
+
   #subpage-compare{
     padding-top: 30px !important;
   }
-}
 
 
-/* ================================================css for foundation file */
+
+/* ===========================================================================css for foundation file */
 @media only screen and (min-width: 640px) and (max-width:786px){
   #home-why .medium-2{
   width: 33% !important;
