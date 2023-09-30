@@ -6023,15 +6023,17 @@ select:focus {
 }
 #home-tips .row  h4 a{
 text-align:justify !important;
- font-size:15px !important;
+ /* font-size:15px !important; */
  
 }
 #home-tips .row div  p{
+ 
 margin-top:15px !important;
 }
 #home-tips .row div  p a{
-color: #FA9D23 !important;
-font-size:14px !important;
+  color: #2babe6 !important;
+/* color: #FA9D23 !important; */
+/* font-size:14px !important; */
 }
 #home-tips .row div p a:hover{
 text-decoration: underline !important;
@@ -6186,6 +6188,18 @@ text-decoration: underline !important;
   .page-id-57 .small-10
   {
   width: 98% !important;
+  }
+  .page-id-1114   .trip-cost .small-12  .small-10,
+  .page-id-1109   .trip-cost .small-12  .small-10,
+  .page-id-67   .trip-cost .small-12  .small-10,
+  .page-id-55   .trip-cost .small-12  .small-10,
+  .page-id-59   .trip-cost .small-12  .small-10,
+  .page-id-814   .trip-cost .small-12  .small-10,
+  .page-id-24   .trip-cost .small-12  .small-10,
+  .page-id-132   .trip-cost .small-12  .small-10,
+  .page-id-57   .trip-cost .small-12  .small-10
+  {
+  width: 83.33333% !important;
   }
 }
 
