@@ -6301,3 +6301,6 @@ code {
   width: fit-content !important;
 }
 }
+.page-id-4{
+  overflow-x: hidden;
+}
