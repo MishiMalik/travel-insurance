@@ -6304,3 +6304,20 @@ code {
 .page-id-4{
   overflow-x: hidden;
 }
+
+@media only screen and (min-width: 40.063em){
+  .page-id-152 #main-content .medium-offset-1{
+    margin-left: 0% !important;
+  }
+.page-id-152 #main-content .medium-10 {
+    width: 100% !important;
+}
+}
+
+@media only screen and (max-width:360px){
+
+  .cart-header a{
+     font-size: 16px !important;
+    margin-top:6px !important;
+  }
+}
