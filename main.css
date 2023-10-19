@@ -6321,3 +6321,19 @@ code {
     margin-top:6px !important;
   }
 }
+
+
+@media only screen and (max-width: 1024px){
+  .page-id-152 #side-content{
+    order:2 !important;
+  }
+ .page-id-152 #main-content{
+    order:1 !important;
+  }
+
+  .page-id-152 .row #side-content{
+    display:none  !important;
+  }
+.page-id-152  #side-content{   
+  display:block !important;
+  }}
