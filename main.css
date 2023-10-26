@@ -6312,6 +6312,9 @@ code {
 .page-id-152 #main-content .medium-10 {
     width: 100% !important;
 }
+.page-id-152 #main-content .option-list .medium-10 {
+  width: 80% !important;
+}
 }
 
 @media only screen and (max-width:360px){
