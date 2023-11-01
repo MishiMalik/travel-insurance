@@ -6137,7 +6137,7 @@ select:focus {
 .page-id-814 .entry-content p,
 .page-id-24 .entry-content p,
 .page-id-132 .entry-content p,
-.page-id-57 .entry-content {
+.page-id-57 .entry-content p{
   text-align: justify !important;
 }
 
@@ -6340,3 +6340,7 @@ code {
 .page-id-152  #side-content{   
   display:block !important;
   }}
+  
+  #filtertest{
+overflow-x: hidden;
+}
