@@ -6145,6 +6145,17 @@ select:focus {
   .entry-summary{
     text-align: justify;
   }
+  .page-id-1114 .entry-content p,
+.page-id-1109 .entry-content p,
+.page-id-67 .entry-content p,
+.page-id-55 .entry-content p,
+.page-id-59 .entry-content p,
+.page-id-814 .entry-content p,
+.page-id-24 .entry-content p,
+.page-id-132 .entry-content p,
+.page-id-57 .entry-content p{
+  text-align: left !important;
+}
   .entry-content {
     margin: 0px 0px !important;
   }
@@ -6344,3 +6355,5 @@ code {
   #filtertest{
 overflow-x: hidden;
 }
+
+
