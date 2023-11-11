@@ -596,17 +596,26 @@
     .logo-row-sm{
       display: none;
     }
-    
+    .logo-row-sm p{
+      font-size: 12px;
+      font-weight: 400;
+      color: white;
+      margin-bottom: 10px;
+      text-align: centerc;
+    }
     @media only screen and (max-width:640px) {
      
       .logo-main-div{
         display: none;
       }
       .logo-row-sm{
-        display: flex;
-        justify-content: space-around;
+        display: block;
         background-color: #407C9B;
         padding: 10px 15px;
+      }
+      .logo-row-sm-text{
+        display: flex;
+        justify-content: space-around;
       }
       .logo-row-sm img{
         min-height: auto !important;
@@ -762,10 +771,14 @@
     </div><!-- /home-slideshow -->
 <!-- featured in small -->
 <div class="logo-row-sm">
+  <p class="mb-0 pb-0">Featured In:</p>
   <!-- <img src="logo1-removebg-preview.png" alt="" class="img-fluid"> -->
-  <img src="nyt.svg" alt="" class="img-fluid">
-  <img src="wapo-logo.svg" alt="" class="img-fluid">
-  <img src="wstj.svg" alt="" class="img-fluid">
+  <div class="logo-row-sm-text">
+    <img src="nyt.svg" alt="" class="img-fluid">
+    <img src="wapo-logo.svg" alt="" class="img-fluid">
+    <img src="wstj.svg" alt="" class="img-fluid">
+  </div>
+
   <!-- <img src="usatod.png" alt="" class="img-fluid"> -->
 </div>
     <div class="mobile-accredited show-for-small-only">
