@@ -534,15 +534,28 @@
 
 
 /* new css */
+/* #home-slideshow .slide-text-container{
+  top:35% !important;
+} */
+.slide-text-container{
+      border-radius: 0px !important;
+      padding: 0px !important;
+    }
+    .slide-text-container .slide-text{
+      padding: 30px  40px 30px 40px!important;
+    }
     .logo-main-div {
-      margin-top: 45px;
+      margin-top:0px;
       display: flex;
       flex-direction: column;
+      background-color: rgba(42, 43, 44, 0.608) !important;
+      padding: 20px 40px 25px 40px !important;
     }
 
-    .logo-main-div h1 {
-      font-size: 18px !important;
-      font-weight: 600 !important;
+    .logo-main-div p {
+      font-size: 16px !important;
+      font-weight: 500 !important;
+      margin-bottom: 15px !important;
     }
 
     .logo-row {
@@ -561,6 +574,13 @@
     }
 
     @media only screen and (max-width:1024px) {
+      .slide-text-container .slide-text{
+      padding: 0px  0px 0px 0px!important;
+    }
+    .logo-main-div {
+      background-color: transparent !important;
+      padding: 10px 0px 0px 0px !important;
+    }
       .logo-row {
         justify-content: center;
       }
@@ -576,6 +596,7 @@
     .logo-row-sm{
       display: none;
     }
+    
     @media only screen and (max-width:640px) {
      
       .logo-main-div{
@@ -722,24 +743,18 @@
                     <li>100,000+ Verified Customer Reviews</li>
                     <li>Over $3.5 Billion of Trips Protected</li>
                   </ul>
-                  <div class="logo-main-div">
-                    <h1>Featured In</h1>
-                    <div class="logo-row">
-                      <!-- <img src="logo1-removebg-preview.png" alt="" class="img-fluid"> -->
-                      <img src="nyt.svg" alt="" class="img-fluid">
-                      <img src="wapo-logo.svg" alt="" class="img-fluid">
-                      <img src="wstj.svg" alt="" class="img-fluid">
-                      <!-- <img src="usatod.png" alt="" class="img-fluid"> -->
-                    </div>
-                    <!-- <div class="logo-row mt-logo">
-                                <img src="logo4.svg" alt="" class="img-fluid">
-                                <img src="logo3.svg" alt="" class="img-fluid">
-                            </div> -->
+                
+                </div>
+                <div class="logo-main-div">
+                  <p class="mb-0 pb-0">Featured In:</p>
+                  <div class="logo-row">
+                    <img src="nyt.svg" alt="" class="img-fluid">
+                    <img src="wapo-logo.svg" alt="" class="img-fluid">
+                    <img src="wstj.svg" alt="" class="img-fluid">
                   </div>
                 </div>
-
               </div>
-
+             
             </div><!-- /columns -->
           </div><!-- /row -->
         </li><!-- /slide -->
